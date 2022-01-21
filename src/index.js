@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.css'; // MUST load this before any other CSS files
+import './components/Chatbox/Chatbox.css'
+import './components/ChatTextEntry/ChatTextEntry.css';
+import './components/MessageContainer/MessageContainer.css';
+import './components/Logo/Logo.css';
+import './components/Message/Message.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

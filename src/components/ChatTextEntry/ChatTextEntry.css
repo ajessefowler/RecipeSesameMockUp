@@ -1,0 +1,23 @@
+.chatTextEntry {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(139, 190, 163);
+    border-radius: 0 0 var(--chat-radius) var(--chat-radius);
+}
+
+.chatTextEntry > input {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.input {
+    width: 100%;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.send {
+    width: 70px;
+}

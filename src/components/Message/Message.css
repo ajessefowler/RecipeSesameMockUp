@@ -1,0 +1,25 @@
+.message {
+    min-height: 30px;
+    padding: 8px 13px;
+    margin: 8px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.message > p {
+    text-align: left;
+}
+
+.leftMessage {
+    border-radius: 15px 15px 15px 3px;
+    margin-right: 50%;
+    background-color: rgb(80, 80, 80);
+    color: white;
+}
+
+.rightMessage {
+    border-radius: 15px 15px 3px 15px;
+    margin-left: 50%;
+    background-color: rgb(235, 132, 14);
+}
