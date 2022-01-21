@@ -2,7 +2,7 @@
     padding: 10px;
     display: flex;
     justify-content: center;
-    background-color: white;
+    background-color: rgb(245, 245, 245);
     border-radius: 0 0 var(--chat-radius) var(--chat-radius);
     border-top: var(--gray-border);
 }
