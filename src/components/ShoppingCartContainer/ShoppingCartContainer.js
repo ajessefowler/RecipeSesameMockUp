@@ -1,4 +1,5 @@
 import React from "react";
+import ShoppingCartHeader from "../ShoppingCartHeader/ShoppingCartHeader";
 
 const ShoppingCartContainer = (props) => {
     const closeCartScreen = () => {
@@ -7,8 +8,8 @@ const ShoppingCartContainer = (props) => {
 
     return (
         <div className="cartContainer" onClick={closeCartScreen}>
-            <div className="cartContent">
-                <h2>Shopping Cart</h2>
+            <div className="recipeCard">
+                <ShoppingCartHeader />
             </div>
         </div>
     );

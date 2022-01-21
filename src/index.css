@@ -15,6 +15,10 @@ p, h1, h2, h3, input {
   font-family: 'Carter One', cursive;
 }
 
+input {
+  font-size: 16px;
+}
+
 h1, h2, h3 {
   color: var(--black-text);
 }

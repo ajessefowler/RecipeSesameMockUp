@@ -1,4 +1,4 @@
-.recipeHeader {
+.cardHeader {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,11 +6,11 @@
     margin-bottom: 20px;
 }
 
-.recipeHeader > svg {
+.cardHeader > svg {
     color: rgb(185, 20, 20);
 }
 
-.recipeHeader > svg:hover {
+.cardHeader > svg:hover {
     cursor: pointer;
     color:rgb(160, 21, 21);
 }
