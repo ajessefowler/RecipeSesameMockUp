@@ -11,3 +11,9 @@
     box-shadow: var(--card-box-shadow);
     margin-bottom: 30px;
 }
+
+@media only screen and (min-width: 1000px) {
+    .chatbox {
+        height: 65vh;
+    }
+}

@@ -16,13 +16,15 @@ function App() {
     <div className="App">
       <Logo />
       <ShoppingCartButton />
-      <Chatbox numberOfMessagesSent={numberOfMessagesSent} setNumberOfMessagesSent={setNumberOfMessagesSent}/>
-      <RecommendedContainer 
-        numberOfMessagesSent={numberOfMessagesSent} 
-        first={firstRecipes} 
-        second={secondRecipes}
-        third={thirdRecipes}
-      />
+      <div className="mainContainer">
+        <Chatbox numberOfMessagesSent={numberOfMessagesSent} setNumberOfMessagesSent={setNumberOfMessagesSent}/>
+        <RecommendedContainer 
+          numberOfMessagesSent={numberOfMessagesSent} 
+          first={firstRecipes} 
+          second={secondRecipes}
+          third={thirdRecipes}
+        />
+      </div>
     </div>
   );
 }

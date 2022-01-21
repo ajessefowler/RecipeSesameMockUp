@@ -32,6 +32,20 @@
   color: #61dafb;
 }
 
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 1000px) {
+  .mainContainer {
+    flex-direction: row;
+    width: 95%;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
