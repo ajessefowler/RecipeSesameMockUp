@@ -15,11 +15,12 @@
     border-radius: 15px 15px 15px 3px;
     margin-right: 50%;
     background-color: rgb(80, 80, 80);
-    color: white;
+    color: var(--white-text);
 }
 
 .rightMessage {
     border-radius: 15px 15px 3px 15px;
     margin-left: 50%;
     background-color: rgb(235, 132, 14);
+    color: var(--black-text);
 }

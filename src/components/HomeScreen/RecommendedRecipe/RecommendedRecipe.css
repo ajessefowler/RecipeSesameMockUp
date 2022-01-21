@@ -1,5 +1,5 @@
 .recommendedRecipe {
-    background-color: white;
+    background-color: rgb(245, 245, 245);
     height: 150px;
     width: 200px;
     display: flex;
@@ -8,6 +8,7 @@
     margin: 0 15px;
     padding: 8px 12px;
     border-radius: 8px;
+    box-shadow: var(--card-box-shadow);
 }
 
 .recommendedRecipe:hover {

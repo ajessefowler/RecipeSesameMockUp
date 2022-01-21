@@ -3,11 +3,18 @@
   --green-border: 1px solid rgb(141, 182, 160);
   --gray-border: 1px solid rgb(221, 221, 221);
   --chat-radius: 8px;
+  --black-text: rgb(15, 15, 15);
+  --white-text: rgb(245, 245, 245);
+  --card-box-shadow: 0px 1px 4px #7ca58f;
 }
 
 p, h1, h2, h3 {
   margin: 0;
   padding: 0;
+}
+
+h1, h2, h3 {
+  color: var(--black-text);
 }
 
 body {
