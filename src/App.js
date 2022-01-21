@@ -4,7 +4,7 @@ import Logo from './components/HomeScreen/Logo/Logo';
 import Chatbox from './components/HomeScreen/Chatbox/Chatbox';
 import RecommendedContainer from './components/HomeScreen/RecommendedContainer/RecommendedContainer';
 import ShoppingCartButton from './components/HomeScreen/ShoppingCartButton/ShoppingCartButton';
-import RecipeContainer from './components/RecipeContainer/RecipeContainer';
+import RecipeContainer from './components/RecipeScreen/RecipeContainer/RecipeContainer';
 import ShoppingCartContainer from './components/ShoppingCartContainer/ShoppingCartContainer';
 
 function App() {

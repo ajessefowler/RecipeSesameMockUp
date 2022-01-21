@@ -1,0 +1,16 @@
+.recipeHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.recipeHeader > svg {
+    color: rgb(185, 20, 20);
+}
+
+.recipeHeader > svg:hover {
+    cursor: pointer;
+    color:rgb(160, 21, 21);
+}

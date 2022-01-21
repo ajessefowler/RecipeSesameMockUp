@@ -7,7 +7,7 @@
     max-width: 750px;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(199, 255, 225);
+    background-color: var(--main-color-light);
     box-shadow: var(--card-box-shadow);
     margin-bottom: 30px;
 }

@@ -1,5 +1,6 @@
 /* Global CSS variables go here! */
 :root {
+  --main-color-light: rgb(199, 255, 225);
   --green-border: 1px solid rgb(141, 182, 160);
   --gray-border: 1px solid rgb(221, 221, 221);
   --chat-radius: 8px;

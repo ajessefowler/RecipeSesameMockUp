@@ -12,8 +12,16 @@
 
 .recipeContent {
     background-color: rgb(183, 235, 207);
-    height: 90vh;
-    width: 90%;
+    height: calc(90vh - 90px);
+    width: calc(90% - 120px);
+    padding: 30px 60px 60px;
     border-radius: 15px;
     box-shadow: 0px 1px 4px rgb(46, 66, 55);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.recipeContent > h2 {
 }
