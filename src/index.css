@@ -1,7 +1,7 @@
 /* Global CSS variables go here! */
 :root {
   --green-border: 1px solid rgb(141, 182, 160);
-  --gray-border: 1px solid rgb(10, 10, 10);
+  --gray-border: 1px solid rgb(221, 221, 221);
   --chat-radius: 8px;
 }
 

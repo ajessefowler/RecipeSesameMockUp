@@ -2,13 +2,14 @@
     padding: 10px;
     display: flex;
     justify-content: center;
-    background-color: rgb(139, 190, 163);
+    background-color: white;
     border-radius: 0 0 var(--chat-radius) var(--chat-radius);
+    border-top: var(--gray-border);
 }
 
 .chatTextEntry > input {
     background-color: white;
-    border: none;
+    border: var(--gray-border);
     border-radius: 5px;
 }
 
