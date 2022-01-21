@@ -15,5 +15,6 @@
 @media only screen and (min-width: 1000px) {
     .chatbox {
         height: 65vh;
+        margin-right: 40px;
     }
 }
