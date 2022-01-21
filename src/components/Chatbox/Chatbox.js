@@ -7,14 +7,15 @@ const Chatbox = () => {
     const [messages, setMessages] = useState([{ content: "Hello! What kind of recipes are you looking for?", isUserMessage: false }]);
 
     const addMessage = (message) => {
-        const temp = messages;
-        temp.push(message);
-        setMessages(temp);
+        const currentMessages = messages;
+        currentMessages.push(message);
+        setMessages(currentMessages);
     }
 
     const incrementNumberOfMessagesSent = () => {
         setNumberOfMessagesSent(numberOfMessagesSent + 1);
         
+        // The above method call is async, so these if statements execute first
         if (numberOfMessagesSent === 0) {
             addMessage({ content: "Sounds good! Any specific ingredients you'd like to include?", isUserMessage: false });
         } else if (numberOfMessagesSent === 1) {
