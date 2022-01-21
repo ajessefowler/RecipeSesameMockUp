@@ -1,0 +1,13 @@
+.recommendedContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.recommendedContainer > h2 {
+    margin-bottom: 15px;
+}
+
+.recommendedScroll {
+    display: flex;
+}

@@ -1,0 +1,15 @@
+.recommendedRecipe {
+    background-color: white;
+    height: 150px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.recommendedRecipe:hover {
+    cursor: pointer;
+}

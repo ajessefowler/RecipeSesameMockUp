@@ -6,6 +6,9 @@ import './components/HomeScreen/ChatTextEntry/ChatTextEntry.css';
 import './components/HomeScreen/MessageContainer/MessageContainer.css';
 import './components/HomeScreen/Logo/Logo.css';
 import './components/HomeScreen/Message/Message.css';
+import './components/HomeScreen/RecommendedContainer/RecommendedContainer.css';
+import './components/HomeScreen/RecommendedRecipe/RecommendedRecipe.css';
+import './components/HomeScreen/ShoppingCartButton/ShoppingCartButton.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
