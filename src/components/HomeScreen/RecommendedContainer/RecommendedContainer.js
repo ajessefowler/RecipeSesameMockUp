@@ -19,7 +19,12 @@ const RecommendedContainer = (props) => {
             <h2>Recommended Recipes</h2>
             <div className="recommendedScroll">
                 { currentRecipes.map((recipe, index) => (
-                    <RecommendedRecipe key={index} name={recipe.name} />
+                    <RecommendedRecipe 
+                        key={index} 
+                        name={recipe.name} 
+                        setRecipeScreenIsOpen={props.setRecipeScreenIsOpen} 
+                        setOpenRecipe={props.setOpenRecipe}
+                    />
                 )) }
             </div>
         </div>

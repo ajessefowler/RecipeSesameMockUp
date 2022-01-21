@@ -1,8 +1,12 @@
 import React from "react";
 
-const ShoppingCartButton = () => {
+const ShoppingCartButton = (props) => {
+    const handleButtonClick = () => {
+        props.setCartScreenIsOpen(true);
+    }
+
     return (
-        <div className="cartBtn">
+        <div className="cartBtn" onClick={handleButtonClick}>
             <h3>Cart</h3>
         </div>
     );

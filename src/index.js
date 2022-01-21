@@ -9,6 +9,8 @@ import './components/HomeScreen/Message/Message.css';
 import './components/HomeScreen/RecommendedContainer/RecommendedContainer.css';
 import './components/HomeScreen/RecommendedRecipe/RecommendedRecipe.css';
 import './components/HomeScreen/ShoppingCartButton/ShoppingCartButton.css';
+import './components/RecipeContainer/RecipeContainer.css';
+import './components/ShoppingCartContainer/ShoppingCartContainer.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
