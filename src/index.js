@@ -8,12 +8,12 @@ import './components/HomeScreen/Logo/Logo.css';
 import './components/HomeScreen/Message/Message.css';
 import './components/HomeScreen/RecommendedContainer/RecommendedContainer.css';
 import './components/HomeScreen/RecommendedRecipe/RecommendedRecipe.css';
-import './components/HomeScreen/ShoppingCartButton/ShoppingCartButton.css';
+import './components/HomeScreen/CartButton/CartButton.css';
 import './components/RecipeScreen/RecipeContainer/RecipeContainer.css';
 import './components/RecipeScreen/RecipeHeader/RecipeHeader.css';
 import './components/RecipeScreen/RecipeDescription/RecipeDescription.css';
 import './components/RecipeScreen/RecipeControls/RecipeControls.css';
-import './components/ShoppingCartContainer/ShoppingCartContainer.css';
+import './components/CartScreen/CartContainer/CartContainer.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

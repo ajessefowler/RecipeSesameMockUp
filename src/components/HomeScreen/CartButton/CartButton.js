@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingBasket } from '@fortawesome/free-solid-svg-icons';
 
-const ShoppingCartButton = (props) => {
+const CartButton = (props) => {
     const handleButtonClick = () => {
         props.setCartScreenIsOpen(true);
     }
@@ -14,4 +14,4 @@ const ShoppingCartButton = (props) => {
     );
 }
 
-export default ShoppingCartButton;
+export default CartButton;

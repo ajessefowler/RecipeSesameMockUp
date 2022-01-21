@@ -1,7 +1,7 @@
 import React from "react";
-import ShoppingCartHeader from "../ShoppingCartHeader/ShoppingCartHeader";
+import CartHeader from "../CartHeader/CartHeader";
 
-const ShoppingCartContainer = (props) => {
+const CartContainer = (props) => {
     const closeCartScreen = () => {
         props.setCartScreenIsOpen(false);
     }
@@ -9,10 +9,10 @@ const ShoppingCartContainer = (props) => {
     return (
         <div className="cartContainer" onClick={closeCartScreen}>
             <div className="recipeCard">
-                <ShoppingCartHeader />
+                <CartHeader />
             </div>
         </div>
     );
 }
 
-export default ShoppingCartContainer;
+export default CartContainer;

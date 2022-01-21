@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
-const ShoppingCartHeader = () => {
+const CartHeader = () => {
     return (
         <div className="cardHeader">
             <h1>Shopping Basket</h1>
@@ -11,4 +11,4 @@ const ShoppingCartHeader = () => {
     );
 }
 
-export default ShoppingCartHeader;
+export default CartHeader;

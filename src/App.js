@@ -3,9 +3,9 @@ import './App.css';
 import Logo from './components/HomeScreen/Logo/Logo';
 import Chatbox from './components/HomeScreen/Chatbox/Chatbox';
 import RecommendedContainer from './components/HomeScreen/RecommendedContainer/RecommendedContainer';
-import ShoppingCartButton from './components/HomeScreen/ShoppingCartButton/ShoppingCartButton';
+import CartButton from './components/HomeScreen/CartButton/CartButton';
 import RecipeContainer from './components/RecipeScreen/RecipeContainer/RecipeContainer';
-import ShoppingCartContainer from './components/ShoppingCartContainer/ShoppingCartContainer';
+import CartContainer from './components/CartScreen/CartContainer/CartContainer';
 
 function App() {
   const [numberOfMessagesSent, setNumberOfMessagesSent] = useState(0);
@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <Logo />
-      <ShoppingCartButton 
+      <CartButton 
         setCartScreenIsOpen={setCartScreenIsOpen}
       />
       <div className="mainContainer">
@@ -49,7 +49,7 @@ function App() {
       : null }
 
       { cartScreenIsOpen ?
-        <ShoppingCartContainer 
+        <CartContainer 
           setCartScreenIsOpen={setCartScreenIsOpen}
         />
       : null }
