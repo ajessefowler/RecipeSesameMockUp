@@ -1,3 +1,21 @@
 .logo {
-    margin-bottom: 20px;
+  margin-bottom: 20px;  
 }
+
+.logo > h1 {
+    font-size: 32pt;
+}
+
+@media only screen and (min-width: 1000px) {
+    .logo > h1 {
+        font-size: 40pt;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .logo {
+        position: absolute;
+        top: 30px;
+        left: 50px;
+    }
+  }
