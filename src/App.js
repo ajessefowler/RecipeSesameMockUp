@@ -1,6 +1,6 @@
 import './App.css';
-import Logo from './components/Logo/Logo';
-import Chatbox from './components/Chatbox/Chatbox';
+import Logo from './components/HomeScreen/Logo/Logo';
+import Chatbox from './components/HomeScreen/Chatbox/Chatbox';
 
 function App() {
   return (
