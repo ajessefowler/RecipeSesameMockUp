@@ -3,7 +3,7 @@ import React from "react";
 const RecipeDescription = (props) => {
     return (
         <div className="recipeDescription">
-            <p>{props.description}</p>
+            { props.description.map(line => <p>{line}</p>) }
         </div>
     );
 }

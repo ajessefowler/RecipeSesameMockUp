@@ -1,9 +1,9 @@
 .recipeDescription {
     width: 50%;
-    height: 100vh;
     overflow: scroll;
     padding: 15px;
     background-color: var(--main-color-light);
     box-shadow: inset 0px 0px 4px #7ca58f;
     border-radius: var(--chat-radius);
+    text-align: left;
 }

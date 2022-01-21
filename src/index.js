@@ -12,6 +12,7 @@ import './components/HomeScreen/ShoppingCartButton/ShoppingCartButton.css';
 import './components/RecipeScreen/RecipeContainer/RecipeContainer.css';
 import './components/RecipeScreen/RecipeHeader/RecipeHeader.css';
 import './components/RecipeScreen/RecipeDescription/RecipeDescription.css';
+import './components/RecipeScreen/RecipeControls/RecipeControls.css';
 import './components/ShoppingCartContainer/ShoppingCartContainer.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';

@@ -1,0 +1,7 @@
+.recipeControls > img {
+    width: auto;
+    height: auto;
+    max-height: 30vh;
+    border-radius: var(--chat-radius);
+    box-shadow: var(--card-box-shadow);
+}

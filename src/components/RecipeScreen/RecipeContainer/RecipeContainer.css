@@ -10,7 +10,7 @@
     background-color: rgba(61, 87, 72, 0.9);
 }
 
-.recipeContent {
+.recipeCard {
     background-color: rgb(183, 235, 207);
     height: calc(90vh - 90px);
     width: calc(90% - 120px);
@@ -23,5 +23,9 @@
     align-items: flex-start;
 }
 
-.recipeContent > h2 {
+.recipeContent {
+    display: flex;
+    justify-content: space-between;
+    overflow: scroll;
+    height: 100vh;
 }
