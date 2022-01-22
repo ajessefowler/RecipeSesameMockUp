@@ -2,8 +2,8 @@
     padding: 10px;
     display: flex;
     justify-content: center;
-    background-color: rgb(245, 245, 245);
-    border-radius: 0 0 var(--chat-radius) var(--chat-radius);
+    background-color: var(--off-white);
+    border-radius: 0 0 var(--small-radius) var(--small-radius);
     border-top: var(--gray-border);
 }
 

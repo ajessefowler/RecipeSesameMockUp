@@ -1,12 +1,19 @@
 /* Global CSS variables go here! */
 :root {
+  --main-color: rgb(183, 235, 207);
   --main-color-light: rgb(199, 255, 225);
+  --secondary-color: rgb(235, 132, 14);
+  --secondary-color-dark: rgb(189, 112, 24);
+  --warning-color: rgb(185, 20, 20);
+  --warning-color-dark: rgb(160, 21, 21);
   --green-border: 1px solid rgb(192, 238, 212);
   --gray-border: 1px solid rgb(221, 221, 221);
-  --chat-radius: 8px;
+  --small-radius: 8px;
+  --large-radius: 15px;
   --black-text: rgb(25, 25, 25);
-  --white-text: rgb(245, 245, 245);
-  --card-box-shadow: 0px 1px 4px #7ca58f;
+  --off-white: rgb(245, 245, 245);
+  --card-shadow: 0px 1px 4px #7ca58f;
+  --list-shadow: inset 0px 0px 4px #7ca58f;
 }
 
 p, h1, h2, h3, input, li {
@@ -25,7 +32,7 @@ h1, h2, h3 {
 
 body {
   margin: 2% 8%;
-  background-color: rgb(183, 235, 207);
+  background-color: var(--main-color);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

@@ -1,5 +1,5 @@
 .recommendedRecipe {
-    background-color: rgb(245, 245, 245);
+    background-color: var(--off-white);
     height: 150px;
     width: 200px;
     display: flex;
@@ -8,7 +8,7 @@
     margin: 8px 15px;
     padding: 8px 12px;
     border-radius: 8px;
-    box-shadow: var(--card-box-shadow);
+    box-shadow: var(--card-shadow);
     overflow: hidden;
     background-image: url("../../../images/gyros.jpg");
     background-size: cover;
@@ -19,11 +19,11 @@
 }
 
 .recommendedRecipe > h3 {
-    color: var(--white-text);
+    color: var(--off-white);
     text-shadow: 1px 0 2px rgb(50, 50, 50)
 }
 
 .recommendedRecipe > img {
     transform: scale(0.4, 0.4);
-    border-radius: var(--chat-radius);
+    border-radius: var(--small-radius);
 }

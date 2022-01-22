@@ -5,8 +5,8 @@
 }
 
 .selected {
-    background-color: rgb(235, 132, 14);
-    border: 1px solid rgb(189, 112, 24);
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color-dark);
 }
 
 .unselected {

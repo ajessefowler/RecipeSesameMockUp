@@ -7,10 +7,10 @@
 }
 
 .cardHeader > svg {
-    color: rgb(185, 20, 20);
+    color: var(--warning-color);
 }
 
 .cardHeader > svg:hover {
     cursor: pointer;
-    color:rgb(160, 21, 21);
+    color:var(--warning-color-dark);
 }

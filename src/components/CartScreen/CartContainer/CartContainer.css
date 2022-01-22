@@ -11,9 +11,9 @@
 }
 
 .cartContent {
-    background-color: rgb(183, 235, 207);
+    background-color: var(--main-color);
     height: 90vh;
     width: 90%;
-    border-radius: 15px;
+    border-radius: var(--large-radius);
     box-shadow: 0px 1px 4px rgb(46, 66, 55);
 }

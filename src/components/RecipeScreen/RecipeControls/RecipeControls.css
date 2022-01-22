@@ -9,6 +9,6 @@
     width: auto;
     height: auto;
     max-height: 32vh;
-    border-radius: var(--chat-radius);
-    box-shadow: var(--card-box-shadow);
+    border-radius: var(--small-radius);
+    box-shadow: var(--card-shadow);
 }

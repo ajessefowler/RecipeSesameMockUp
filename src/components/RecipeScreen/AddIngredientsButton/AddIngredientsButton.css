@@ -1,7 +1,7 @@
 .addIngredientsButton {
     padding: 8px 15px;
-    background-color: rgb(245, 245, 245);
-    border-radius: 15px;
+    background-color: var(--off-white);
+    border-radius: var(--large-radius);
     border: var(--gray-border);
 }
 

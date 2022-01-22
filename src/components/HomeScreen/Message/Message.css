@@ -13,15 +13,15 @@
 }
 
 .leftMessage {
-    border-radius: 15px 15px 15px 3px;
+    border-radius: var(--large-radius) var(--large-radius) var(--large-radius) 3px;
     background-color: rgb(80, 80, 80);
-    color: var(--white-text);
+    color: var(--off-white);
     width: 50%;
 }
 
 .rightMessage {
-    border-radius: 15px 15px 3px 15px;
-    background-color: rgb(235, 132, 14);
+    border-radius: var(--large-radius) var(--large-radius) 3px var(--large-radius);
+    background-color: var(--secondary-color);
     color: var(--black-text);
     width: 50%;
     margin-left: auto;

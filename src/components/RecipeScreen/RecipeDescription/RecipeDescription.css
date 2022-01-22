@@ -3,7 +3,7 @@
     overflow: scroll;
     padding: 15px;
     background-color: var(--main-color-light);
-    box-shadow: inset 0px 0px 4px #7ca58f;
-    border-radius: var(--chat-radius);
+    box-shadow: var(--list-shadow);
+    border-radius: var(--small-radius);
     text-align: left;
 }
