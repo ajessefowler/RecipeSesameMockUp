@@ -1,0 +1,32 @@
+.listSelector {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.selected {
+    background-color: rgb(235, 132, 14);
+    border: 1px solid rgb(189, 112, 24);
+}
+
+.unselected {
+    background-color: var(--main-color-light);
+    border: 1px solid rgb(162, 216, 187);
+}
+
+.listSelector > h3 {
+    padding: 0 20px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listSelector > h3:hover {
+    cursor: pointer;
+}
+
+.listSelector > h3:first-of-type {
+    margin-right: 10px;
+}

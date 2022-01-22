@@ -18,6 +18,7 @@ import './components/CartScreen/CartContents/CartContents.css';
 import './components/CartScreen/CartItem/CartItem.css';
 import './components/RecipeScreen/AddIngredientsButton/AddIngredientsButton.css';
 import './components/RecipeScreen/RecipeCartContainer/RecipeCartContainer.css';
+import './components/CartScreen/ListSelector/ListSelector.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

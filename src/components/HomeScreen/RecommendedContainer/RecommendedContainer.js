@@ -16,7 +16,7 @@ const RecommendedContainer = (props) => {
 
     return (
         <div className="recommendedContainer">
-            <h2>Recommended Recipes</h2>
+            <h2>Suggested Recipes</h2>
             <div className="recommendedScroll">
                 { currentRecipes.map((recipe, index) => (
                     <RecommendedRecipe 

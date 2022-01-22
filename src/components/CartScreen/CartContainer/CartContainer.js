@@ -3,14 +3,10 @@ import CartContents from "../CartContents/CartContents";
 import CartHeader from "../CartHeader/CartHeader";
 
 const CartContainer = (props) => {
-    const closeCartScreen = () => {
-        props.setCartScreenIsOpen(false);
-    }
-
     return (
-        <div className="cartContainer" onClick={closeCartScreen}>
+        <div className="cartContainer">
             <div className="recipeCard">
-                <CartHeader />
+                <CartHeader setCartScreenIsOpen={props.setCartScreenIsOpen}/>
                 <CartContents contents={props.cartContents} />
             </div>
         </div>

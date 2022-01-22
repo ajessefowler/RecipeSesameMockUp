@@ -1,9 +1,14 @@
 .recipeCartContents {
     height: 20vh;
+    min-width: 225px;
     overflow-y: scroll;
     background-color: var(--main-color-light);
     box-shadow: inset 0px 0px 4px #7ca58f;
     border-radius: var(--chat-radius);
     text-align: left;
     padding: 8px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }

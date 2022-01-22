@@ -6,7 +6,7 @@
 }
 
 .recommendedContainer > h2 {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .recommendedScroll {
@@ -17,4 +17,4 @@
     .recommendedScroll {
       flex-direction: column;
     }
-  }
+}

@@ -1,4 +1,21 @@
 .cartItem {
-    padding: 10px;
-    border-top: var(--green-border);
+    padding: 10px 20px;
+    margin: 10px 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(183, 235, 207);
+}
+
+.cartItem:hover {
+    cursor: pointer;
+}
+
+.cartItem > svg {
+    color: rgb(185, 20, 20);
+}
+
+.cartItem > svg:hover {
+    color:rgb(160, 21, 21);
 }
