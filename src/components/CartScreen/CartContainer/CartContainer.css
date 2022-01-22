@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(61, 87, 72, 0.9);
+    background-color: var(--screen-shade);
 }
 
 .cartContent {
@@ -15,5 +15,5 @@
     height: 90vh;
     width: 90%;
     border-radius: var(--large-radius);
-    box-shadow: 0px 1px 4px rgb(46, 66, 55);
+    box-shadow: var(--screen-shadow);
 }

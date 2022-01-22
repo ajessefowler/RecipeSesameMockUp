@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(61, 87, 72, 0.9);
+    background-color: var(--screen-shade);
 }
 
 .recipeCard {
@@ -16,7 +16,7 @@
     width: calc(90% - 120px);
     padding: 30px 60px 60px;
     border-radius: var(--large-radius);
-    box-shadow: 0px 1px 4px rgb(46, 66, 55);
+    box-shadow: var(--screen-shadow);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
