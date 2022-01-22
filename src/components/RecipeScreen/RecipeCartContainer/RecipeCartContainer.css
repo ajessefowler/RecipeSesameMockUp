@@ -1,6 +1,6 @@
 .recipeCartContents {
     height: 20vh;
-    min-width: 225px;
+    min-width: 235px;
     overflow-y: scroll;
     background-color: var(--main-color-light);
     box-shadow: inset 0px 0px 4px #7ca58f;
@@ -11,4 +11,24 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+}
+
+.recipeCartContents > p {
+    padding: 8px;
+    width: calc(100% - 16px);
+}
+
+.recipeCartContents > p:not(:first-of-type) {
+    border-top: var(--green-border);
+}
+
+.centered {
+    justify-content: center;
+    align-items: center;
+}
+
+.centered > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

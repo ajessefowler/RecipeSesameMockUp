@@ -1,7 +1,7 @@
 /* Global CSS variables go here! */
 :root {
   --main-color-light: rgb(199, 255, 225);
-  --green-border: 1px solid rgb(172, 218, 193);
+  --green-border: 1px solid rgb(192, 238, 212);
   --gray-border: 1px solid rgb(221, 221, 221);
   --chat-radius: 8px;
   --black-text: rgb(25, 25, 25);

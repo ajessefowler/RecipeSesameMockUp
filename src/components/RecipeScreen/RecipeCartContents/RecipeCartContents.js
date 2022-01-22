@@ -8,7 +8,7 @@ const RecipeCartContents = (props) => {
             )) }
         </div>
     ) : (
-        <div className="recipeCartContents">
+        <div className="recipeCartContents centered">
             <p>Your basket is empty.</p>
         </div>
     );
