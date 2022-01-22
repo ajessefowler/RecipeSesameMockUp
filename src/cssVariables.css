@@ -11,6 +11,7 @@
     --large-radius: 15px;
     --black-text: rgb(25, 25, 25);
     --off-white: rgb(245, 245, 245);
+    --disabled-button-color: rgb(200, 200, 200);
     --card-shadow: 0px 1px 4px #7ca58f;
     --list-shadow: inset 0px 0px 4px #7ca58f;
     --screen-shadow: 0px 1px 4px rgb(46, 66, 55);

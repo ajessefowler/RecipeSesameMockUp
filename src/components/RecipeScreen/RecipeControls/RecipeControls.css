@@ -12,3 +12,9 @@
     border-radius: var(--small-radius);
     box-shadow: var(--card-shadow);
 }
+
+.recipeButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
