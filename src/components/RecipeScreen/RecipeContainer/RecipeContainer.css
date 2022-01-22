@@ -10,10 +10,10 @@
     background-color: var(--screen-shade);
 }
 
-.recipeCard {
+.screenCard {
     background-color: var(--main-color);
     height: calc(90vh - 90px);
-    width: calc(90% - 120px);
+    width: 65%;
     padding: 30px 60px 60px;
     border-radius: var(--large-radius);
     box-shadow: var(--screen-shadow);
@@ -22,6 +22,10 @@
     justify-content: flex-start;
     align-items: flex-start;
     overflow: hidden;
+}
+
+.recipeCard {
+    width: 82%;
 }
 
 .recipeContent {

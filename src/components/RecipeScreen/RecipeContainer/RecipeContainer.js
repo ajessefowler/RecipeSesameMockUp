@@ -14,7 +14,7 @@ const RecipeContainer = (props) => {
 
     return (
         <div className="recipeContainer">
-            <div className="recipeCard">
+            <div className="screenCard recipeCard">
                 <RecipeHeader recipeName={props.openRecipe} closeRecipeScreen={closeRecipeScreen}/>
                 <div className="recipeContent">
                     <RecipeDescription description={recipeDescription} />

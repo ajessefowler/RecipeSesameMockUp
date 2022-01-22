@@ -6,7 +6,7 @@ import './CartContainer.css';
 const CartContainer = (props) => {
     return (
         <div className="cartContainer">
-            <div className="recipeCard">
+            <div className="screenCard">
                 <CartHeader setCartScreenIsOpen={props.setCartScreenIsOpen}/>
                 <CartContents contents={props.cartContents} />
             </div>

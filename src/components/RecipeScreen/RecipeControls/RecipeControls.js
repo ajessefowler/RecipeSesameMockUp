@@ -16,7 +16,7 @@ const RecipeControls = (props) => {
             <img src={GyroPhoto} alt="Selected recipe." />
             <RecipeCartContainer cartContents={props.cartContents} addClicked={addClicked}/>
             <div className="recipeButtons">
-                <RecipeButton setAddClicked={setAddClicked} label={addIngredientsLabel} enabled={true}/>
+                <RecipeButton setRecipeSaved={setRecipeSaved} setAddClicked={setAddClicked} label={addIngredientsLabel} enabled={true}/>
                 {recipeSaved ? (<RecipeButton label={savedRecipeLabel} setRecipeSaved={setRecipeSaved} enabled={false} />) : (<RecipeButton label={saveRecipeLabel} setRecipeSaved={setRecipeSaved} enabled={true}/>) }
             </div>
         </div>
