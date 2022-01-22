@@ -1,4 +1,5 @@
 import React from "react";
+import './RecipeDescription.css';
 
 const RecipeDescription = (props) => {
     return (

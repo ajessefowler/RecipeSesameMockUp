@@ -1,4 +1,5 @@
 import React from "react";
+import './ListSelector.css';
 
 const ListSelector = (props) => {
     const handleIngredientClick = () => {

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import GyroPhoto from '../../../images/gyros.jpg';
 import AddIngredientsButton from "../AddIngredientsButton/AddIngredientsButton";
 import RecipeCartContainer from "../RecipeCartContainer/RecipeCartContainer";
+import './RecipeControls.css';
 
 const RecipeControls = (props) => {
     const [addClicked, setAddClicked] = useState(false);

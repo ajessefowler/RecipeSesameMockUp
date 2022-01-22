@@ -1,4 +1,5 @@
 import React from "react";
+import './AddIngredientsButton.css';
 
 const AddIngredientsButton = (props) => {
     const handleButtonClick = () => {

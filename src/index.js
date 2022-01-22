@@ -1,24 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css'; // MUST load this before any other CSS files
-import './components/HomeScreen/Chatbox/Chatbox.css'
-import './components/HomeScreen/ChatTextEntry/ChatTextEntry.css';
-import './components/HomeScreen/MessageContainer/MessageContainer.css';
-import './components/HomeScreen/Logo/Logo.css';
-import './components/HomeScreen/Message/Message.css';
-import './components/HomeScreen/RecommendedContainer/RecommendedContainer.css';
-import './components/HomeScreen/RecommendedRecipe/RecommendedRecipe.css';
-import './components/HomeScreen/CartButton/CartButton.css';
-import './components/RecipeScreen/RecipeContainer/RecipeContainer.css';
-import './components/RecipeScreen/RecipeHeader/RecipeHeader.css';
-import './components/RecipeScreen/RecipeDescription/RecipeDescription.css';
-import './components/RecipeScreen/RecipeControls/RecipeControls.css';
-import './components/CartScreen/CartContainer/CartContainer.css';
-import './components/CartScreen/CartContents/CartContents.css';
-import './components/CartScreen/CartItem/CartItem.css';
-import './components/RecipeScreen/AddIngredientsButton/AddIngredientsButton.css';
-import './components/RecipeScreen/RecipeCartContainer/RecipeCartContainer.css';
-import './components/CartScreen/ListSelector/ListSelector.css';
+import './cssVariables.css'; // MUST load this first!
+import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

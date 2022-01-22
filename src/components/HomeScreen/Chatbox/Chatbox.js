@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ChatTextEntry from '../ChatTextEntry/ChatTextEntry';
 import MessageContainer from '../MessageContainer/MessageContainer';
+import './Chatbox.css'
 
 const Chatbox = (props) => {
     const [messages, setMessages] = useState([{ content: "Hello! What kind of recipes are you looking for?", isUserMessage: false }]);

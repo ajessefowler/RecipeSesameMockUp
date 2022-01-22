@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import CartItem from "../CartItem/CartItem";
 import ListSelector from "../ListSelector/ListSelector";
+import './CartContents.css';
 
 const CartContents = (props) => {
     const [displayIngredients, setDisplayIngredients] = useState(true);

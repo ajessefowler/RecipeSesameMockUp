@@ -2,6 +2,7 @@ import React from "react";
 import RecipeDescription from "../RecipeDescription/RecipeDescription";
 import RecipeHeader from "../RecipeHeader/RecipeHeader";
 import RecipeControls from "../RecipeControls/RecipeControls";
+import './RecipeContainer.css';
 
 const RecipeContainer = (props) => {
     // Hardcoded for now, will be passed as prop

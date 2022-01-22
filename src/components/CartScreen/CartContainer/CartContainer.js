@@ -1,6 +1,7 @@
 import React from "react";
 import CartContents from "../CartContents/CartContents";
 import CartHeader from "../CartHeader/CartHeader";
+import './CartContainer.css';
 
 const CartContainer = (props) => {
     return (

@@ -1,5 +1,6 @@
 import React from 'react';
 import Message from '../Message/Message';
+import './MessageContainer.css';
 
 const MessageContainer = (props) => {
     return (

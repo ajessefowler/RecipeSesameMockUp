@@ -1,4 +1,5 @@
 import React from 'react';
+import './RecommendedRecipe.css';
 
 const RecommendedRecipe = (props) => {
     const handleRecipeClick = () => {

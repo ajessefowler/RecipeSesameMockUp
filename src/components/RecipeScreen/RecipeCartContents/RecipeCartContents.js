@@ -1,4 +1,5 @@
 import React from "react";
+import './RecipeCartContents.css';
 
 const RecipeCartContents = (props) => {
     return props.addClicked ? ( 

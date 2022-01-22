@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import RecommendedRecipe from '../RecommendedRecipe/RecommendedRecipe';
+import './RecommendedContainer.css';
 
 const RecommendedContainer = (props) => {
     const [currentRecipes, setCurrentRecipes] = useState(props.first);
