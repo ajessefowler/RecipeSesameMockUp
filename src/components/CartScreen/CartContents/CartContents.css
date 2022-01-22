@@ -7,7 +7,7 @@
     overflow: scroll;
     background-color: var(--main-color-light);
     border-radius: var(--chat-radius);
-    height: 64vh;
+    height: 61vh;
     width: 100%;
     padding: 10px 0;
     box-shadow: inset 0px 0px 4px #6a8f7b;

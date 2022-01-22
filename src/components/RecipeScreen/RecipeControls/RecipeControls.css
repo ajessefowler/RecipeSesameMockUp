@@ -10,5 +10,5 @@
     height: auto;
     max-height: 32vh;
     border-radius: var(--chat-radius);
-    border: var(--green-border);
+    box-shadow: var(--card-box-shadow);
 }
