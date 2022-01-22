@@ -9,8 +9,21 @@
     padding: 8px 12px;
     border-radius: 8px;
     box-shadow: var(--card-box-shadow);
+    overflow: hidden;
+    background-image: url("../../../images/gyros.jpg");
+    background-size: cover;
 }
 
 .recommendedRecipe:hover {
     cursor: pointer;
+}
+
+.recommendedRecipe > h3 {
+    color: var(--white-text);
+    text-shadow: 1px 0 2px rgb(50, 50, 50)
+}
+
+.recommendedRecipe > img {
+    transform: scale(0.4, 0.4);
+    border-radius: var(--chat-radius);
 }

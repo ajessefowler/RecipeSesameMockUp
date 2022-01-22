@@ -7,7 +7,7 @@ const AddIngredientsButton = (props) => {
 
     return (
         <div className="addIngredientsButton" onClick={handleButtonClick}>
-            <p>Add ingredients to basket</p>
+            <p>Add to basket</p>
         </div>
     );
 }
