@@ -1,7 +1,14 @@
+.recipeControls {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .recipeControls > img {
     width: auto;
     height: auto;
-    max-height: 30vh;
+    max-height: 32vh;
     border-radius: var(--chat-radius);
-    box-shadow: var(--card-box-shadow);
+    border: var(--green-border);
 }

@@ -22,3 +22,7 @@
 .send {
     width: 70px;
 }
+
+.send:hover {
+    cursor: pointer;
+}

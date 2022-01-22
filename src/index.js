@@ -14,6 +14,10 @@ import './components/RecipeScreen/RecipeHeader/RecipeHeader.css';
 import './components/RecipeScreen/RecipeDescription/RecipeDescription.css';
 import './components/RecipeScreen/RecipeControls/RecipeControls.css';
 import './components/CartScreen/CartContainer/CartContainer.css';
+import './components/CartScreen/CartContents/CartContents.css';
+import './components/CartScreen/CartItem/CartItem.css';
+import './components/RecipeScreen/AddIngredientsButton/AddIngredientsButton.css';
+import './components/RecipeScreen/RecipeCartContainer/RecipeCartContainer.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

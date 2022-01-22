@@ -14,7 +14,7 @@ function App() {
   const [openRecipe, setOpenRecipe] = useState({});
 
   const [cartScreenIsOpen, setCartScreenIsOpen] = useState(false);
-  //const [cartContents, setCartContents] = useState({});
+  const [cartContents, setCartContents] = useState(["1.5 lbs chicken tenders", "4 tbsp extra virgin olive oil", "1 cup Greek yogurt", "1 large lemon", "2 tbsp red wine vinegar", "3 garlic gloves", "kosher salt", "black pepper", "1 tbsp oregano", "1 tsp sweet paprika", "1 tsp ground cumin", "1 tsp ground coriander"]);
 
   const firstRecipes = [{name: "PB&J"}, {name: "Spaghetti"}, {name: "Fried Chicken"}];
   const secondRecipes = [{name: "Vegan Greek Meatballs"}, {name: "Greek Chicken Souvlaki"}, {name: "Homemade Greek Salad"}];
@@ -31,7 +31,8 @@ function App() {
           numberOfMessagesSent={numberOfMessagesSent} 
           setNumberOfMessagesSent={setNumberOfMessagesSent}
         />
-        <RecommendedContainer 
+        <RecommendedContainer
+          setCartContents={setCartContents} 
           setOpenRecipe={setOpenRecipe}
           setRecipeScreenIsOpen={setRecipeScreenIsOpen}
           numberOfMessagesSent={numberOfMessagesSent} 
@@ -45,12 +46,14 @@ function App() {
         <RecipeContainer 
           openRecipe={openRecipe} 
           setRecipeScreenIsOpen={setRecipeScreenIsOpen}
+          cartContents={cartContents}
         /> 
       : null }
 
       { cartScreenIsOpen ?
         <CartContainer 
           setCartScreenIsOpen={setCartScreenIsOpen}
+          cartContents={cartContents}
         />
       : null }
     </div>

@@ -1,0 +1,10 @@
+.addIngredientsButton {
+    padding: 8px 15px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 15px;
+    border: var(--gray-border);
+}
+
+.addIngredientsButton:hover {
+    cursor: pointer;
+}

@@ -9,9 +9,12 @@ const ChatTextEntry = (props) => {
 
     const handleSend = (event) => {
         event.preventDefault();
-        props.addMessage({ content: textContent, isUserMessage: true });
-        props.incrementNumberOfMessagesSent();
-        setTextContent('');
+
+        if (textContent.length > 0) {
+            props.addMessage({ content: textContent, isUserMessage: true });
+            props.incrementNumberOfMessagesSent();
+            setTextContent('');
+        }
     }
 
     return (

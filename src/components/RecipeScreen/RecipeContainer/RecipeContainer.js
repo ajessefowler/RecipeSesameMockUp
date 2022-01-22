@@ -12,12 +12,12 @@ const RecipeContainer = (props) => {
     }
 
     return (
-        <div className="recipeContainer" onClick={closeRecipeScreen}>
+        <div className="recipeContainer">
             <div className="recipeCard">
-                <RecipeHeader recipeName={props.openRecipe} />
+                <RecipeHeader recipeName={props.openRecipe} closeRecipeScreen={closeRecipeScreen}/>
                 <div className="recipeContent">
                     <RecipeDescription description={recipeDescription} />
-                    <RecipeControls />
+                    <RecipeControls cartContents={props.cartContents}/>
                 </div>
             </div>
         </div>

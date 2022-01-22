@@ -1,0 +1,4 @@
+.cartItem {
+    padding: 10px;
+    border-top: var(--green-border);
+}

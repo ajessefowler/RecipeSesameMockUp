@@ -1,4 +1,5 @@
 import React from "react";
+import CartContents from "../CartContents/CartContents";
 import CartHeader from "../CartHeader/CartHeader";
 
 const CartContainer = (props) => {
@@ -10,6 +11,7 @@ const CartContainer = (props) => {
         <div className="cartContainer" onClick={closeCartScreen}>
             <div className="recipeCard">
                 <CartHeader />
+                <CartContents contents={props.cartContents} />
             </div>
         </div>
     );

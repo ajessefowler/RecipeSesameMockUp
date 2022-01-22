@@ -9,7 +9,7 @@
   --card-box-shadow: 0px 1px 4px #7ca58f;
 }
 
-p, h1, h2, h3, input {
+p, h1, h2, h3, input, li {
   margin: 0;
   padding: 0;
   font-family: 'Carter One', cursive;

@@ -6,7 +6,7 @@ const RecipeHeader = (props) => {
     return (
         <div className="cardHeader">
             <h1>{props.recipeName}</h1>
-            <FontAwesomeIcon icon={faTimes} size="2x"/>
+            <FontAwesomeIcon icon={faTimes} size="2x" onClick={props.closeRecipeScreen}/>
         </div>
     );
 }
