@@ -9,7 +9,3 @@
 .recipeButton:hover {
     cursor: pointer;
 }
-
-.disabled {
-    background-color: var(--disabled-button-color);
-}

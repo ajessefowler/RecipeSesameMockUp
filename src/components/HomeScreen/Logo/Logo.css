@@ -2,6 +2,12 @@
   margin-bottom: 20px;  
 }
 
+@media only screen and (max-width: 500px) {
+    .logo {
+      max-width: 50%;
+    }
+  }
+
 .logo > h1 {
     font-size: 32pt;
 }

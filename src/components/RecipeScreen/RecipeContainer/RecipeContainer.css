@@ -1,5 +1,5 @@
 .recipeContainer {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -24,6 +24,14 @@
     overflow: hidden;
 }
 
+@media only screen and (max-width: 500px) {
+    .screenCard {
+        width: 100%;
+        height: calc(95vh - 50px);
+        padding: 20px 20px 30px;
+    }
+}
+
 .recipeCard {
     width: 82%;
 }
@@ -33,4 +41,12 @@
     justify-content: space-between;
     overflow: scroll;
     height: 100vh;
+}
+
+@media only screen and (max-width: 500px) {
+    .recipeContent {
+        flex-direction: column;
+        height: auto;
+        overflow: auto;
+    }
 }

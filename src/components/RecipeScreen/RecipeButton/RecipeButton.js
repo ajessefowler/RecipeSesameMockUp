@@ -7,12 +7,8 @@ const RecipeButton = (props) => {
         if (props.setRecipeSaved) props.setRecipeSaved(true);
     }
 
-    return props.enabled ? (
+    return (
         <div className="recipeButton" onClick={handleButtonClick}>
-            <p>{props.label}</p>
-        </div>
-    ) : (
-        <div className="recipeButton disabled" onClick={handleButtonClick}>
             <p>{props.label}</p>
         </div>
     );
