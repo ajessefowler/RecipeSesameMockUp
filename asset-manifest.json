@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/RecipeSesameMockUp/static/css/main.bb1acb6c.css",
+    "main.js": "/RecipeSesameMockUp/static/js/main.40e56941.js",
+    "static/js/787.298434b5.chunk.js": "/RecipeSesameMockUp/static/js/787.298434b5.chunk.js",
+    "static/media/gyros.jpg": "/RecipeSesameMockUp/static/media/gyros.a651f18796dda23f3da3.jpg",
+    "index.html": "/RecipeSesameMockUp/index.html",
+    "main.bb1acb6c.css.map": "/RecipeSesameMockUp/static/css/main.bb1acb6c.css.map",
+    "main.40e56941.js.map": "/RecipeSesameMockUp/static/js/main.40e56941.js.map",
+    "787.298434b5.chunk.js.map": "/RecipeSesameMockUp/static/js/787.298434b5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb1acb6c.css",
+    "static/js/main.40e56941.js"
+  ]
+}
