@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/RecipeSesameMockUp/static/css/main.abed3e08.css",
-    "main.js": "/RecipeSesameMockUp/static/js/main.87f6ec43.js",
+    "main.css": "/RecipeSesameMockUp/static/css/main.a971e2bc.css",
+    "main.js": "/RecipeSesameMockUp/static/js/main.4b0ea4da.js",
     "static/js/787.298434b5.chunk.js": "/RecipeSesameMockUp/static/js/787.298434b5.chunk.js",
     "static/media/gyros.jpg": "/RecipeSesameMockUp/static/media/gyros.a651f18796dda23f3da3.jpg",
     "index.html": "/RecipeSesameMockUp/index.html",
-    "main.abed3e08.css.map": "/RecipeSesameMockUp/static/css/main.abed3e08.css.map",
-    "main.87f6ec43.js.map": "/RecipeSesameMockUp/static/js/main.87f6ec43.js.map",
+    "main.a971e2bc.css.map": "/RecipeSesameMockUp/static/css/main.a971e2bc.css.map",
+    "main.4b0ea4da.js.map": "/RecipeSesameMockUp/static/js/main.4b0ea4da.js.map",
     "787.298434b5.chunk.js.map": "/RecipeSesameMockUp/static/js/787.298434b5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.abed3e08.css",
-    "static/js/main.87f6ec43.js"
+    "static/css/main.a971e2bc.css",
+    "static/js/main.4b0ea4da.js"
   ]
 }
