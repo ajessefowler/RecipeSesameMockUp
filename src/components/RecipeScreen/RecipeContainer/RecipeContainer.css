@@ -39,7 +39,7 @@
 .recipeContent {
     display: flex;
     justify-content: space-between;
-    overflow: scroll;
+    /*overflow: scroll;*/
     height: 100vh;
 }
 

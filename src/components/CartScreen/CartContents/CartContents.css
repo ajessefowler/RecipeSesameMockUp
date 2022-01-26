@@ -7,8 +7,21 @@
     overflow: scroll;
     background-color: var(--main-color-light);
     border-radius: var(--small-radius);
-    height: 61vh;
+    height: 58vh;
     width: 100%;
     padding: 10px 0;
     box-shadow: var(--list-shadow);
+}
+
+.printButton {
+    background-color: var(--main-color-light);
+    border: 1px solid rgb(162, 216, 187);
+    padding: 0 20px;
+    margin: 8px 0;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    float: right;
 }

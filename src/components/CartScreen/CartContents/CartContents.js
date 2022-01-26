@@ -18,6 +18,10 @@ const CartContents = (props) => {
                     <CartItem key={index} item={item} />
                 )) : <CartItem item={"Homemade Greek Chicken Gyro"}/> }
             </div>
+
+            <div className="printButton">
+                <p>Print List</p>
+            </div>
         </div>
     );
 }
