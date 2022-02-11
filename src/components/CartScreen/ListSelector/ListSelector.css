@@ -1,32 +1,29 @@
 .listSelector {
     display: flex;
     justify-content: flex-start;
-    margin-bottom: 10px;
+    margin-bottom: 0;
 }
 
 .selected {
-    background-color: var(--secondary-color);
-    border: 1px solid var(--secondary-color-dark);
+    background-color: var(--main-color-light);
+    border-bottom: 1px solid var(--main-color-dark);
 }
 
 .unselected {
-    background-color: var(--main-color-light);
-    border: 1px solid rgb(162, 216, 187);
+    background-color: var(--main-color-dark);
+    border-bottom: 1px solid var(--main-color-dark);
 }
 
-.listSelector > h3 {
+.listSelector > p {
     padding: 0 20px;
-    height: 40px;
-    border-radius: 20px;
+    height: 36px;
+    border-radius: var(--small-radius) var(--small-radius) 0 0 ;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
 }
 
-.listSelector > h3:hover {
+.listSelector > p:hover {
     cursor: pointer;
-}
-
-.listSelector > h3:first-of-type {
-    margin-right: 10px;
 }

@@ -1,16 +1,16 @@
 .cartContents {
     width: 100%;
     height: 100vh;
+    margin-top: 12px;
 }
 
 .cartList {
     overflow: scroll;
     background-color: var(--main-color-light);
-    border-radius: var(--small-radius);
+    border-radius: 0 var(--small-radius) var(--small-radius) var(--small-radius);
     height: 58vh;
     width: 100%;
     padding: 10px 0;
-    box-shadow: var(--list-shadow);
 }
 
 .printButton {
@@ -21,7 +21,7 @@
     height: 40px;
     border-radius: 20px;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
     float: right;
 }

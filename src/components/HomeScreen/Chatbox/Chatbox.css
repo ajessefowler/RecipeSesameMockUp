@@ -10,7 +10,7 @@
     background-color: var(--main-color-light);
     box-shadow: var(--card-shadow);
     margin-bottom: 30px;
-    margin-top: 6px;
+    margin-top: 27px;
 }
 
 @media only screen and (max-width: 500px) {

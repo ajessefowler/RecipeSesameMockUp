@@ -10,7 +10,8 @@ const CartButton = (props) => {
 
     return (
         <div className="cartBtn" onClick={handleButtonClick}>
-            <FontAwesomeIcon icon={faShoppingBasket} size="2x"/>
+            <p>Basket</p>
+            <FontAwesomeIcon icon={faShoppingBasket} size="md"/>
         </div>
     );
 }

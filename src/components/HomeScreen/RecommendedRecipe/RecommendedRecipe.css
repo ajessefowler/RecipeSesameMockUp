@@ -1,17 +1,23 @@
 .recommendedRecipe {
     background-color: var(--off-white);
-    height: 150px;
-    width: 200px;
+    height: 140px;
+    width: 240px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 8px 15px;
+    margin: 8px 0 8px 15px;
     padding: 8px 12px;
     border-radius: 8px;
-    box-shadow: var(--card-shadow);
     overflow: hidden;
     background-image: url("../../../images/gyros.jpg");
+    box-shadow: var(--card-shadow);
     background-size: cover;
+}
+
+@media only screen and (max-width: 1000px) {
+    .recommendedRecipe {
+        margin: 8px 15px;
+    }
 }
 
 .recommendedRecipe:hover {

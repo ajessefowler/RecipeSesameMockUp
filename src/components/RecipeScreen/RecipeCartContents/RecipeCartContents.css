@@ -3,7 +3,6 @@
     min-width: 235px;
     overflow-y: scroll;
     background-color: var(--main-color-light);
-    box-shadow: var(--list-shadow);
     border-radius: var(--small-radius);
     text-align: left;
     padding: 8px 15px;

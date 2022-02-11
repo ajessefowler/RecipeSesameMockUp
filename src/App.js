@@ -29,13 +29,14 @@ function App() {
 
   return (
     <div className="App">
-      <Logo />
-      <CartButton 
-        setCartScreenIsOpen={setCartScreenIsOpen}
-      />
+      <div className="header">
+        <Logo />
+        <CartButton 
+          setCartScreenIsOpen={setCartScreenIsOpen}
+        />
+      </div>
       <div className="mainContainer">
         <div className="chatContainer">
-          <h3>Tell us what you're looking for!</h3>
           <Chatbox 
             numberOfMessagesSent={numberOfMessagesSent} 
             setNumberOfMessagesSent={setNumberOfMessagesSent}
