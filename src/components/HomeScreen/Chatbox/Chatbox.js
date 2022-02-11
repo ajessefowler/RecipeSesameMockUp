@@ -18,7 +18,7 @@ const Chatbox = (props) => {
         // The above function call is async, so these if statements execute first
         if (props.numberOfMessagesSent === 0) {
             addMessage({ content: "Sounds good! Any specific ingredients you'd like to include?", isUserMessage: false });
-        } else if (props.numberOfMessagesSent === 1) {
+        } else {
             addMessage({ content: "I think you might enjoy these recipes.", isUserMessage: false });
         }
     }
@@ -29,6 +29,7 @@ const Chatbox = (props) => {
             <ChatTextEntry 
                 incrementNumberOfMessagesSent={incrementNumberOfMessagesSent} 
                 addMessage={addMessage}
+                setRecommendedRecipes={props.setRecommendedRecipes}
             />
         </div>
     );

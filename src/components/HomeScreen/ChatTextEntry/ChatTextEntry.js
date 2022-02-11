@@ -24,6 +24,7 @@ const ChatTextEntry = (props) => {
             })
                 .then(response => response.json())
                 .then(data => {
+                    props.setRecommendedRecipes(data);
                     console.log(data);
                     setTextContent('');
                 });

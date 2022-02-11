@@ -3,26 +3,20 @@ import RecommendedRecipe from '../RecommendedRecipe/RecommendedRecipe';
 import './RecommendedContainer.css';
 
 const RecommendedContainer = (props) => {
-    const [currentRecipes, setCurrentRecipes] = useState(props.first);
-
     useEffect(() => {
-        if (props.numberOfMessagesSent === 0) {
-            setCurrentRecipes(props.first);
-        } else if (props.numberOfMessagesSent === 1) {
-            setCurrentRecipes(props.second);
-        } else if (props.numberOfMessagesSent === 2) {
-            setCurrentRecipes(props.third);
-        }
-    }, [props.first, props.second, props.third, props.numberOfMessagesSent]);
+        console.log(props.recommendedRecipes);
+    }, [props.recommendedRecipes]);
+
+    // Recipes will have {ingredients, instructions, picture_link, and title}
 
     return (
         <div className="recommendedContainer">
             <h2>Suggested Recipes</h2>
             <div className="recommendedScroll">
-                { currentRecipes.map((recipe, index) => (
+                { props.recommendedRecipes.map((recipe, index) => (
                     <RecommendedRecipe 
                         key={index} 
-                        name={recipe.name} 
+                        name={recipe.title} 
                         setRecipeScreenIsOpen={props.setRecipeScreenIsOpen} 
                         setOpenRecipe={props.setOpenRecipe}
                     />
