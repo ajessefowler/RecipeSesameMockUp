@@ -55,17 +55,18 @@
 
 .chatContainer {
   width: 100%;
-  margin-top: 40px;
 }
 
 @media only screen and (min-width: 1000px) {
   .mainContainer {
     flex-direction: row;
     margin-top: 30px;
+    align-items: flex-start;
   }
 
   .chatContainer {
     width: 70%;
+    margin-top: 14px;
   }
 }
 
