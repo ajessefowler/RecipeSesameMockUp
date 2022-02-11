@@ -3,6 +3,7 @@ import './ChatTextEntry.css';
 
 const ChatTextEntry = (props) => {
     const [textContent, setTextContent] = useState('');
+    const messageUrl = 'http://localhost:8000/message/';
 
     const handleTextChange = (event) => {
         setTextContent(event.target.value);
@@ -14,7 +15,18 @@ const ChatTextEntry = (props) => {
         if (textContent.length > 0) {
             props.addMessage({ content: textContent, isUserMessage: true });
             props.incrementNumberOfMessagesSent();
-            setTextContent('');
+            fetch(messageUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({'message': textContent})
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data);
+                    setTextContent('');
+                });
         }
     }
 
