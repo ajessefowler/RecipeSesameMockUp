@@ -6,6 +6,10 @@
     border: var(--gray-border);
 }
 
+.recipeButton > p {
+    font-weight: bold;
+}
+
 .recipeButton:hover {
     cursor: pointer;
 }

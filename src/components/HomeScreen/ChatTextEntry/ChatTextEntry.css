@@ -13,6 +13,10 @@
     border-radius: 5px;
 }
 
+.chatTextEntry > input[type=submit] {
+    font-weight: bold;
+}
+
 .input {
     width: 100%;
     padding: 5px 10px;

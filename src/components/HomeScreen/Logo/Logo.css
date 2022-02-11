@@ -13,15 +13,13 @@
 }
 
 @media only screen and (min-width: 1000px) {
-    .logo > h1 {
-        font-size: 40pt;
-    }
-}
-
-@media only screen and (min-width: 1000px) {
     .logo {
         position: absolute;
-        top: 20px;
+        top: 30px;
         left: 50px;
     }
+
+    .logo > h1 {
+      font-size: 40pt;
+  }
   }
