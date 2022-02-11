@@ -8,6 +8,12 @@
     text-align: left;
 }
 
+.recipeInstructions {
+    margin-top: 18px;
+    padding-top: 15px;
+    border-top: 1px solid var(--main-color-dark);
+}
+
 @media only screen and (max-width: 500px) {
     .recipeDescription {
         height: 400px;

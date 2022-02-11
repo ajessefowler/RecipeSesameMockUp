@@ -1,6 +1,7 @@
 :root {
   --main-color: rgb(183, 235, 207);
   --main-color-light: rgb(199, 255, 225);
+  --main-color-dark: rgb(155, 216, 184);
   --secondary-color: rgb(235, 132, 14);
   --secondary-color-dark: rgb(189, 112, 24);
   --warning-color: rgb(185, 20, 20);

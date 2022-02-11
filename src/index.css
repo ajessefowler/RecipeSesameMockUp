@@ -1,7 +1,13 @@
-p, h1, h2, h3, input, li {
+h1, h2, h3 {
   margin: 0;
   padding: 0;
   font-family: 'Carter One', cursive;
+}
+
+p, input, li {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
 }
 
 input {
