@@ -10,7 +10,12 @@
 }
 
 .cartBtn > p {
-    margin-right: 9px;
+    margin-right: 11px;
+    font-weight: bold;
+}
+
+.cartBtn > svg {
+    margin-bottom: 2px;
 }
 
 .cartBtn:hover {
