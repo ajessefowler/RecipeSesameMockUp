@@ -16,7 +16,7 @@ const RecommendedContainer = (props) => {
                 { props.recommendedRecipes.map((recipe, index) => (
                     <RecommendedRecipe 
                         key={index} 
-                        name={recipe.title} 
+                        recipe={recipe} 
                         setRecipeScreenIsOpen={props.setRecipeScreenIsOpen} 
                         setOpenRecipe={props.setOpenRecipe}
                     />
