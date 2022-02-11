@@ -8,8 +8,12 @@
     text-align: left;
 }
 
+.recipeDescription > p:not(:first-of-type) {
+    margin: 4px 0;
+}
+
 .recipeInstructions {
-    margin-top: 18px;
+    margin-top: 18px !important;
     padding-top: 15px;
     border-top: 1px solid var(--main-color-dark);
 }
