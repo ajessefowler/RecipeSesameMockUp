@@ -13,7 +13,7 @@
     box-shadow: var(--card-shadow);
     background-size: cover;
     transition-property: transform;
-    transition-duration: 0.35s;
+    transition-duration: 0.25s;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -24,7 +24,7 @@
 
 .recommendedRecipe:hover {
     cursor: pointer;
-    transform: scale(1.07);
+    transform: scale(1.04);
 }
 
 .recommendedRecipe > h3 {
