@@ -5,7 +5,9 @@ const RecipeDescription = (props) => {
     return (
         <div className="recipeDescription">
             { props.recipe.ingredients.map(line => <p>{line}</p>) }
-            <p className="recipeInstructions">{ props.recipe.instructions }</p>
+            <div className="instructions">
+                { props.recipe.instructions.split('\n').map(line => <p className="recipeInstructions">{line}</p>) }
+            </div>
         </div>
     );
 }

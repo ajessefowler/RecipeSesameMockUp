@@ -12,6 +12,10 @@
 }
 
 .recipeInstructions {
+    margin-top: 12px !important;
+}
+
+.recipeInstructions:first-of-type {
     margin-top: 18px !important;
     padding-top: 15px;
     border-top: 1px solid var(--main-color-dark);
