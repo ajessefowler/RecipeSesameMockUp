@@ -9,6 +9,7 @@
 .recipeControls > img {
     width: 100%;
     border-radius: var(--small-radius);
+    box-shadow: var(--card-shadow);
 }
 
 @media only screen and (max-width: 500px) {

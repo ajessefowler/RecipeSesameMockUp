@@ -4,7 +4,7 @@ import './RecipeButton.css';
 const RecipeButton = (props) => {
     const saveRecipe = () => {
         let currentRecipes = props.savedRecipes.slice();
-        currentRecipes.push(props.recipe.Title);
+        currentRecipes.push(props.recipe);
         props.setSavedRecipes(currentRecipes);
     }
 
