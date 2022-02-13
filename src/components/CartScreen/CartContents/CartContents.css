@@ -1,5 +1,6 @@
 .cartContents {
-    width: 100%;
+    width: calc(100% - 120px);
+    padding: 0 60px;
     height: 100vh;
     margin-top: 12px;
 }
