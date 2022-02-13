@@ -14,7 +14,7 @@
     background-color: var(--main-color);
     height: calc(90vh - 90px);
     width: 65%;
-    padding: 30px 60px 60px;
+    padding: 30px 0 60px;
     border-radius: var(--large-radius);
     box-shadow: var(--screen-shadow);
     display: flex;
@@ -33,7 +33,7 @@
 }
 
 .recipeCard {
-    width: 82%;
+    width: 90%;
 }
 
 .recipeContent {
@@ -41,7 +41,7 @@
     justify-content: space-between;
     overflow: scroll;
     height: 100vh;
-    padding-top: 12px;
+    padding: 12px 60px 0;
 }
 
 @media only screen and (max-width: 500px) {
