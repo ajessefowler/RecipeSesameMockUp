@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     padding: 8px 12px;
-    border-radius: 8px;
+    border-radius: var(--small-radius);
     overflow: hidden;
     box-shadow: var(--card-shadow);
     background-size: cover;
@@ -20,7 +20,7 @@
 
 .recommendedRecipe:hover {
     cursor: pointer;
-    transform: scale(1.04);
+    transform: scale(1.05);
 }
 
 .recommendedRecipe > h3 {

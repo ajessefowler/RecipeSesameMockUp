@@ -3,13 +3,12 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 40%;
+    width: 35%;
 }
 
 .recipeControls > img {
     width: 100%;
     border-radius: var(--small-radius);
-    box-shadow: var(--card-shadow);
 }
 
 @media only screen and (max-width: 500px) {

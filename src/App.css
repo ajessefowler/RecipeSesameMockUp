@@ -63,6 +63,10 @@
   width: 100%;
 }
 
+.chatContainer > h2 {
+  margin-bottom: 10px;
+}
+
 .container {
   height: 84vh;
 }
@@ -76,7 +80,7 @@
   }
 
   .chatContainer {
-    margin-right: 30px;
+    margin-right: 15px;
     width: 45%;
   }
 }
