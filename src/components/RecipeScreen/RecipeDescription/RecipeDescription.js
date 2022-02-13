@@ -4,9 +4,9 @@ import './RecipeDescription.css';
 const RecipeDescription = (props) => {
     return (
         <div className="recipeDescription">
-            { props.recipe.ingredients.map(line => <p>{line}</p>) }
+            { JSON.parse(props.recipe.Ingredients.replace(/'/g, '"')).map(line => <p>{line}</p>) }
             <div className="instructions">
-                { props.recipe.instructions.split('\n').map(line => <p className="recipeInstructions">{line}</p>) }
+                { props.recipe.Instructions.split('\n').map(line => <p className="recipeInstructions">{line}</p>) }
             </div>
         </div>
     );

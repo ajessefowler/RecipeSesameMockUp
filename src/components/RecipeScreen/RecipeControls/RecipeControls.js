@@ -13,7 +13,7 @@ const RecipeControls = (props) => {
 
     return (
         <div className="recipeControls">
-            <img src={GyroPhoto} alt="Selected recipe." />
+            <img src={process.env.PUBLIC_URL + "/images/"  + props.recipe.Image_Name + ".jpg"} alt={props.recipe.Title} />
             <RecipeCartContainer cartContents={props.cartContents} addClicked={addClicked}/>
             <div className="recipeButtons">
                 <RecipeButton setRecipeSaved={setRecipeSaved} setAddClicked={setAddClicked} label={addIngredientsLabel} enabled={true}/>

@@ -3,6 +3,8 @@ import RecommendedRecipe from '../RecommendedRecipe/RecommendedRecipe';
 import './RecommendedContainer.css';
 
 const RecommendedContainer = (props) => {
+    const topThree = 
+
     useEffect(() => {
         console.log(props.recommendedRecipes);
     }, [props.recommendedRecipes]);
@@ -13,7 +15,7 @@ const RecommendedContainer = (props) => {
         <div className="recommendedContainer">
             <h2>Suggested Recipes</h2>
             <div className="recommendedScroll">
-                { props.recommendedRecipes.map((recipe, index) => (
+                { props.recommendedRecipes.slice(0, 3).map((recipe, index) => (
                     <RecommendedRecipe 
                         key={index} 
                         recipe={recipe} 

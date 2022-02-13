@@ -5,11 +5,12 @@ const RecommendedRecipe = (props) => {
     const handleRecipeClick = () => {
         props.setOpenRecipe(props.recipe);
         props.setRecipeScreenIsOpen(true);
+        console.log(props.recipe);
     }
 
     return (
-        <div className="recommendedRecipe" onClick={handleRecipeClick}>
-            <h3>{props.recipe.title}</h3>
+        <div style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/images/"  + props.recipe.Image_Name + ".jpg" + ")"}} className="recommendedRecipe" onClick={handleRecipeClick}>
+            <h3>{props.recipe.Title}</h3>
         </div>
     );
 

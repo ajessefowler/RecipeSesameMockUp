@@ -17,6 +17,6 @@
   --card-shadow: 0 1px 10px #85bb9e;
   --card-shadow-light: 0 0 5px #9dddbd;
   --list-shadow: inset 0px 0px 4px #7ca58f;
-  --screen-shadow: 0px 1px 4px rgb(46, 66, 55);
-  --screen-shade: rgba(61, 87, 72, 0.9);
+  --screen-shadow: 0px 0px 8px rgb(36, 53, 44);
+  --screen-shade: rgba(49, 71, 58, 0.9);
 }
