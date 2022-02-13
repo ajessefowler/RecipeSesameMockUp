@@ -5,6 +5,7 @@
     background-color: var(--main-color-light);
     border-radius: var(--small-radius);
     text-align: left;
+    margin-right: 25px;
 }
 
 .recipeDescription > p:not(:first-of-type) {

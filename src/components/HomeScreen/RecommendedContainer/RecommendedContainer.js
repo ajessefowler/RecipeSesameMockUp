@@ -12,10 +12,10 @@ const RecommendedContainer = (props) => {
     // Recipes will have {ingredients, instructions, picture_link, and title}
 
     return (
-        <div className="recommendedContainer">
+        <div className="container recommendedContainer">
             <h2>Suggested Recipes</h2>
             <div className="recommendedScroll">
-                { props.recommendedRecipes.slice(0, 3).map((recipe, index) => (
+                { props.recommendedRecipes.slice(0, 6).map((recipe, index) => (
                     <RecommendedRecipe 
                         key={index} 
                         recipe={recipe} 

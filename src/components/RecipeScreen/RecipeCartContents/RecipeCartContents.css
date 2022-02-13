@@ -1,6 +1,5 @@
 .recipeCartContents {
     height: 20vh;
-    min-width: 235px;
     overflow-y: scroll;
     background-color: var(--main-color-light);
     border-radius: var(--small-radius);

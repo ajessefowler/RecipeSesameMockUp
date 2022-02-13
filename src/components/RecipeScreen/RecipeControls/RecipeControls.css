@@ -3,12 +3,11 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    width: 40%;
 }
 
 .recipeControls > img {
-    width: auto;
-    height: auto;
-    max-height: 32vh;
+    width: 100%;
     border-radius: var(--small-radius);
     box-shadow: var(--card-shadow);
 }

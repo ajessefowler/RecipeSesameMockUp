@@ -1,15 +1,11 @@
 .recommendedRecipe {
     background-color: var(--off-white);
-    height: 140px;
-    width: 240px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 8px 0;
     padding: 8px 12px;
     border-radius: 8px;
     overflow: hidden;
-    background-image: url("../../../images/gyros.jpg");
     box-shadow: var(--card-shadow);
     background-size: cover;
     transition-property: transform;

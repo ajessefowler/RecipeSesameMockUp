@@ -36,7 +36,7 @@ function App() {
         />
       </div>
       <div className="mainContainer">
-        <div className="chatContainer">
+        <div className="container chatContainer">
           <Chatbox 
             numberOfMessagesSent={numberOfMessagesSent} 
             setNumberOfMessagesSent={setNumberOfMessagesSent}
