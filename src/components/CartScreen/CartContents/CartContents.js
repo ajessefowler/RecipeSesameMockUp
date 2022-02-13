@@ -14,9 +14,11 @@ const CartContents = (props) => {
             />
             
             <div className="cartList">
-                {displayIngredients ? props.contents.map((item, index) => (
+                {displayIngredients ? props.savedIngredients.map((item, index) => (
                     <CartItem key={index} item={item} />
-                )) : <CartItem item={"Homemade Greek Chicken Gyro"}/> }
+                )) : props.savedRecipes.map((item, index) => (
+                    <CartItem key={index} item={item} />
+                )) }
             </div>
 
             <div className="printButton">

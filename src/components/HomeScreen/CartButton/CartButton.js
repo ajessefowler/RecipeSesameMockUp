@@ -11,7 +11,7 @@ const CartButton = (props) => {
     return (
         <div className="cartBtn" onClick={handleButtonClick}>
             <p>Basket</p>
-            <FontAwesomeIcon icon={faShoppingBasket} size="md"/>
+            <FontAwesomeIcon icon={faShoppingBasket} size="1x"/>
         </div>
     );
 }

@@ -12,12 +12,12 @@ function App() {
   const [numberOfMessagesSent, setNumberOfMessagesSent] = useState(0);
 
   const [recommendedRecipes, setRecommendedRecipes] = useState([]);
+  const [savedIngredients, setSavedIngredients] = useState([]);
+  const [savedRecipes, setSavedRecipes] = useState([]);
 
   const [recipeScreenIsOpen, setRecipeScreenIsOpen] = useState(false);
   const [openRecipe, setOpenRecipe] = useState({});
-
   const [cartScreenIsOpen, setCartScreenIsOpen] = useState(false);
-  const [cartContents, setCartContents] = useState(["1.5 lbs chicken tenders", "4 tbsp extra virgin olive oil", "1 cup Greek yogurt", "1 large lemon", "2 tbsp red wine vinegar", "3 garlic gloves", "kosher salt", "black pepper", "1 tbsp oregano", "1 tsp sweet paprika", "1 tsp ground cumin", "1 tsp ground coriander"]);
 
   const randomUrl = 'http://localhost:8000/random/';
 
@@ -46,7 +46,6 @@ function App() {
         </div>
         
         <RecommendedContainer
-          setCartContents={setCartContents} 
           setOpenRecipe={setOpenRecipe}
           setRecipeScreenIsOpen={setRecipeScreenIsOpen}
           numberOfMessagesSent={numberOfMessagesSent} 
@@ -59,14 +58,20 @@ function App() {
         <RecipeContainer 
           openRecipe={openRecipe} 
           setRecipeScreenIsOpen={setRecipeScreenIsOpen}
-          cartContents={cartContents}
+          savedIngredients={savedIngredients}
+          savedRecipes={savedRecipes}
+          setSavedIngredients={setSavedIngredients}
+          setSavedRecipes={setSavedRecipes}
         /> 
       : null }
 
       { cartScreenIsOpen ?
         <CartContainer 
           setCartScreenIsOpen={setCartScreenIsOpen}
-          cartContents={cartContents}
+          savedIngredients={savedIngredients}
+          savedRecipes={savedRecipes}
+          setSavedIngredients={setSavedIngredients}
+          setSavedRecipes={setSavedRecipes}
         />
       : null }
     </div>

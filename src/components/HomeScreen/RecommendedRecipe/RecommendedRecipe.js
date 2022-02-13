@@ -5,7 +5,6 @@ const RecommendedRecipe = (props) => {
     const handleRecipeClick = () => {
         props.setOpenRecipe(props.recipe);
         props.setRecipeScreenIsOpen(true);
-        console.log(props.recipe);
     }
 
     return (

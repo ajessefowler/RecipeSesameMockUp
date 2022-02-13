@@ -18,7 +18,7 @@
 }
 
 .recipeCartContents > p:not(:first-of-type) {
-    border-top: var(--green-border);
+    border-top: 1px solid var(--main-color-dark);
 }
 
 .centered {

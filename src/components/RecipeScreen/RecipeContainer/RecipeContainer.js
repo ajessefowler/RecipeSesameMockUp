@@ -15,7 +15,13 @@ const RecipeContainer = (props) => {
                 <RecipeHeader recipeName={props.openRecipe.Title} closeRecipeScreen={closeRecipeScreen}/>
                 <div className="recipeContent">
                     <RecipeDescription recipe={props.openRecipe} />
-                    <RecipeControls cartContents={props.cartContents} recipe={props.openRecipe}/>
+                    <RecipeControls 
+                        savedIngredients={props.savedIngredients} 
+                        savedRecipes={props.savedRecipes}
+                        setSavedIngredients={props.setSavedIngredients} 
+                        setSavedRecipes={props.setSavedRecipes} 
+                        recipe={props.openRecipe}
+                    />
                 </div>
             </div>
         </div>

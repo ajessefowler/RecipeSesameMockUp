@@ -8,7 +8,7 @@ const CartContainer = (props) => {
         <div className="cartContainer">
             <div className="screenCard">
                 <CartHeader setCartScreenIsOpen={props.setCartScreenIsOpen}/>
-                <CartContents contents={props.cartContents} />
+                <CartContents savedIngredients={props.savedIngredients} savedRecipes={props.savedRecipes} />
             </div>
         </div>
     );

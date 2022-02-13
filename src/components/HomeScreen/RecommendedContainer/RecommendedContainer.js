@@ -1,12 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import RecommendedRecipe from '../RecommendedRecipe/RecommendedRecipe';
 import './RecommendedContainer.css';
 
 const RecommendedContainer = (props) => {
-    const topThree = 
-
     useEffect(() => {
-        console.log(props.recommendedRecipes);
     }, [props.recommendedRecipes]);
 
     // Recipes will have {ingredients, instructions, picture_link, and title}
